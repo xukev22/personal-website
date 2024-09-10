@@ -21,7 +21,7 @@ export default function About() {
       <p className="tex">
         My journey in computer science began as a{" "}
         <span className="italic">world-class</span> Scratch developer—at least,
-        that's what I told myself at age 10. Armed with a fierce imagination, I
+        that&apos;s what I told myself at age 10. Armed with a fierce imagination, I
         built pixelated worlds where airplanes shot bouncy balls. Though my
         early games weren’t exactly AAA titles, those humble beginnings ignited
         a <span className="font-medium">passion for programming</span> that
@@ -40,7 +40,7 @@ export default function About() {
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy
         playing video games, basketball, cards, and traveling. I also enjoy
-        working on <span className="font-medium">pet projects</span>, as you'll
+        working on <span className="font-medium">pet projects</span>, as you&apos;ll
         see below.
       </p>
     </motion.section>

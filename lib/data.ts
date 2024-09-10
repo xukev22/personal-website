@@ -1,12 +1,22 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import {
+  FaApple,
+  FaAppleAlt,
+  FaBook,
+  FaChalkboardTeacher,
+  FaReact,
+  FaTools,
+} from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 // image alias imports
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import blockstartImg from "@/public/blockstart.png";
+import seamcarverImg from "@/public/seamcarver.png";
+import reinforcementsnakeImg from "@/public/reinforcementsnake.png";
+import racereadyImg from "@/public/raceready.png";
+import { StaticImageData } from "next/image";
+import { FaPencil, FaScreenpal } from "react-icons/fa6";
 
 export const links = [
   {
@@ -37,73 +47,98 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Northeastern University",
+    location: "Boston, MA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Expected May 2026 with a Bachelor's in Computer Science and concentration in AI",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Fall 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Dev Intern",
+    location: "Palo Alto, CA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Increased customer service efficiency by 20% through developing intuitive user interfaces with React. Developed a blog generation assistance tool for search engine optimization, specifically focusing on 'Top 10' style blogs. Leveraged OpenAI's AI capabilities to develop an automated email generation tool, empowering our customer service agents to efficiently handle tickets with a personal touch and improved efficiency.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Summer 2023",
+  },
+  {
+    title: "Teaching Assistant",
+    location: "Boston, MA",
+    description:
+      "TA'd for Fundamentals of Computer Science 2. Facilitated 2-4 office hours weekly to help students with course material, debugging, and design decisions. Graded homework and exams for 67 students in the accelerated section. Conducted weekly interactive lab sessions for a group of 30 students, reviewing the current week's course material and fostering practical application.",
+    icon: React.createElement(FaChalkboardTeacher),
+    date: "Spring 2024",
+  },
+  {
+    title: "DevOps Intern",
+    location: "Waltham, MA",
+    description:
+      "Automated system inventory review using Ansible to ensure essential security agents were installed and deployed as needed. Utilized Terraform and vSphere to create reproducible test environments with automated VM configuration, enabling easy testing through snapshots and RDP, while reducing manual operations and enhancing loggability. Implemented a proof-of-concept Azure AD login solution to replace local SSH keys with Active Directory sign-in, enabling 2FA and improved account management.",
+    icon: React.createElement(FaTools),
+    date: "Fall 2024 - present",
   },
 ] as const;
 
-export const projectsData = [
+export const projectsData: {
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: StaticImageData;
+  externalUrl?: string;
+}[] = [
   {
-    title: "CorpComment",
+    title: "Blockstart",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "With my roommate, I worked as a full-stack developer on this project for a few months. High school athletes can use our tool to browse and find the best colleges for them.",
+    tags: ["React", "HTML", "Java", "Spring", "AWS"],
+    imageUrl: blockstartImg,
+    externalUrl: "http://blockstart.net",
   },
   {
-    title: "rmtDev",
+    title: "Reinforcement Snake",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A model that starts by making random moves in Snake, but learns over time using machine learning principles to become an expert at the game.",
+    tags: ["Python", "PyTorch", "Matplotlib", "CUDA"],
+    imageUrl: reinforcementsnakeImg,
+    externalUrl: "https://www.youtube.com/watch?v=epjwc65-sBw",
   },
   {
-    title: "Word Analytics",
+    title: "Seam Carver",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "My favorite class project, which can visualize the least interesting 'seam', and removes it from the image. Can also reverse/pause the program and show the image grayscale",
+    tags: ["Java"],
+    imageUrl: seamcarverImg,
+    externalUrl: "https://github.com/xukev22/seam_carver",
+  },
+  {
+    title: "Race Ready",
+    description:
+      "Collaborated with a team to develop 'RaceReady', an event organization app for races, featuring a robust database, REST API, and Dockerized services for seamless integration and functionality.",
+    tags: ["Docker", "MySQL", "DataGrip", "Flask", "Appsmith"],
+    imageUrl: racereadyImg,
   },
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Python",
+  "React",
+  "Next.js",
+  "Terraform",
+  "Ansible",
+  "Azure",
+  "AWS",
+  "Docker",
+  "Pytorch",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "SQL",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Apollo GraphQL",
   "Framer Motion",
+  "Spring",
 ] as const;

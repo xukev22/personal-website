@@ -18,30 +18,30 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p>
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      <p className="tex">
+        My journey in computer science began as a{" "}
+        <span className="italic">world-class</span> Scratch developer—at least,
+        that's what I told myself at age 10. Armed with a fierce imagination, I
+        built pixelated worlds where airplanes shot bouncy balls. Though my
+        early games weren’t exactly AAA titles, those humble beginnings ignited
+        a <span className="font-medium">passion for programming</span> that
+        still drives me today.
       </p>
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I&apos;m also
-        learning how to play the guitar.
+        My favorite technologies to work with are{" "}
+        <span className="font-medium">
+          Java, Python, React (Next.js), Ansible, and Terraform
+        </span>
+        . I am also familiar with{" "}
+        <span className="italic">SQL, AWS, Azure, Spring, and GraphQL</span>.
+        And of course, I am always looking for oppurtunities to learn the latest and
+        greatest technologies.
+      </p>
+      <p>
+        <span className="italic">When I&apos;m not coding</span>, I enjoy
+        playing video games, basketball, cards, and traveling. I also enjoy
+        working on <span className="font-medium">pet projects</span>, as you'll
+        see below.
       </p>
     </motion.section>
   );

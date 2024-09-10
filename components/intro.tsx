@@ -59,8 +59,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Kevin.</span> I&apos;m currently a
-        junior majoring in Computer Science at Northeastern University. I love{" "}
+        <span className="font-bold">Hello, I&apos;m Kevin.</span> I&apos;m
+        currently a junior majoring in Computer Science at Northeastern
+        University. I love{" "}
         <span className="font-bold">
           creating and collaborating on projects
         </span>
@@ -92,7 +93,7 @@ export default function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Kevin_Xu_Resume_09092024.pdf"
           download={true}
         >
           Download CV{" "}

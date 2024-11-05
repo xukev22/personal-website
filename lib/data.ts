@@ -130,6 +130,8 @@ export const skillsData = [
   "Azure",
   "AWS",
   "Docker",
+  "Jenkins",
+  "Kubernetes",
   "Pytorch",
   "HTML",
   "CSS",
@@ -141,4 +143,8 @@ export const skillsData = [
   "Apollo GraphQL",
   "Framer Motion",
   "Spring",
+  "JUnit",
+  "MUI",
+  "Appsmith",
+  "Flask",
 ] as const;

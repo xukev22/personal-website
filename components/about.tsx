@@ -30,7 +30,7 @@ export default function About() {
       <p>
         My favorite technologies to work with are{" "}
         <span className="font-medium">
-          Java, Python, React (Next.js), Ansible, and Terraform
+          Java, Python, React, Ansible, and Terraform
         </span>
         . I am also familiar with{" "}
         <span className="italic">SQL, AWS, Azure, Spring, and GraphQL</span>.

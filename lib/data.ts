@@ -16,7 +16,6 @@ import seamcarverImg from "@/public/seamcarver.png";
 import reinforcementsnakeImg from "@/public/reinforcementsnake.png";
 import racereadyImg from "@/public/raceready.png";
 import { StaticImageData } from "next/image";
-import { FaPencil, FaScreenpal } from "react-icons/fa6";
 
 export const links = [
   {
@@ -55,7 +54,7 @@ export const experiencesData = [
     date: "Fall 2022",
   },
   {
-    title: "Front-End Dev Intern",
+    title: "Front-End Intern",
     location: "Palo Alto, CA",
     description:
       "Increased customer service efficiency by 20% through developing intuitive user interfaces with React. Developed a blog generation assistance tool for search engine optimization, specifically focusing on 'Top 10' style blogs. Leveraged OpenAI's AI capabilities to develop an automated email generation tool, empowering our customer service agents to efficiently handle tickets with a personal touch and improved efficiency.",
@@ -71,12 +70,20 @@ export const experiencesData = [
     date: "Spring 2024",
   },
   {
-    title: "DevOps Intern",
+    title: "DevOps Intern - Wolters Kluwer",
     location: "Waltham, MA",
     description:
       "Automated system inventory review using Ansible to ensure essential security agents were installed and deployed as needed. Utilized Terraform and vSphere to create reproducible test environments with automated VM configuration, enabling easy testing through snapshots and RDP, while reducing manual operations and enhancing loggability. Implemented a proof-of-concept Azure AD login solution to replace local SSH keys with Active Directory sign-in, enabling 2FA and improved account management.",
     icon: React.createElement(FaTools),
-    date: "Fall 2024 - present",
+    date: "July 2024 - December 2024",
+  },
+  {
+    title: "Front-End Intern - Klaviyo",
+    location: "Boston, MA",
+    description:
+      "Helped launch a new customer-facing feature that was quickly adopted by clients representing $2.4M in revenue and counting. I strengthened the platform’s role-based access system, improved the reliability and polish of the UI, and reduced sentry error alerts for our team by 50%. I was also trusted with on-call responsibilities, where I resolved urgent issues and contributed components that continue to be used across the product.",
+    icon: React.createElement(FaReact),
+    date: "July 2025 - December 2025",
   },
 ] as const;
 

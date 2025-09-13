@@ -14,6 +14,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import blockstartImg from "@/public/blockstart.png";
 import seamcarverImg from "@/public/seamcarver.png";
 import reinforcementsnakeImg from "@/public/reinforcementsnake.png";
+import thefarmImg from "@/public/thefarm.png"
 import racereadyImg from "@/public/raceready.png";
 import { StaticImageData } from "next/image";
 
@@ -113,10 +114,18 @@ export const projectsData: {
   {
     title: "Seam Carver",
     description:
-      "My favorite class project, which can visualize the least interesting 'seam', and removes it from the image. Can also reverse/pause the program and show the image grayscale",
+      "My favorite class project, which can visualize the least interesting 'seam', and removes it from the image. Can also reverse/pause the program and show the image grayscale.",
     tags: ["Java"],
     imageUrl: seamcarverImg,
     externalUrl: "https://github.com/xukev22/seam_carver",
+  },
+  {
+    title: "TheFarm",
+    description:
+      "Developed a full-stack (MVP) farm management dashboard designed to track livestock. Front end: react/tailwind/framer-motiom. Back end: Next.js, dockerized psql server.",
+    tags: ["Next.js", "NextAuth", "React", "Tailwind", "Framer Motion", "Docker", "PostgreSQL"],
+    imageUrl: thefarmImg,
+    externalUrl: "https://www.youtube.com/watch?v=Q2Dr6F1BrPs",
   },
   {
     title: "Race Ready",

@@ -59,19 +59,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Kevin.</span> I&apos;m
-        currently a senior majoring in Computer Science at Northeastern
-        University. I love{" "}
-        <span className="font-bold">
-          creating and collaborating on projects
-        </span>
-        , and I am also a committed track and field athlete. Balancing my
-        academic pursuits with my athletic commitments has taught me the value
-        of{" "}
-        <span className="font-bold">
-          discipline, teamwork, and perseverance
-        </span>
-        , which I bring to all of my endeavors.
+        <span className="font-bold">Hello, I&apos;m Kevin.</span> I&apos;m a 4th
+        year CS student at Northeastern and also varsity a track &amp; field
+        athlete. I&apos;m{" "}
+        <span className="font-bold">obsessed with building</span>. I like owning
+        projects end-to-end: shaping the idea, writing the code, and iterating
+        until it&apos;s actually good. Outside the keyboard, I&apos;m usually
+        training, competing, or recharging with games.
       </motion.h1>
 
       <motion.div
@@ -93,7 +87,7 @@ export default function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Kevin_Xu_New_Grad_CV.pdf"
+          href="/Kevin_Xu_Resume.pdf"
           download={true}
         >
           Download CV{" "}

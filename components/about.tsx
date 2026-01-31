@@ -18,30 +18,37 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="tex">
-        My journey in computer science began as a{" "}
-        <span className="italic">world-class</span> Scratch developer—at least,
-        that&apos;s what I told myself at age 10. Armed with a fierce imagination, I
-        built pixelated worlds where airplanes shot bouncy balls. Though my
-        early games weren’t exactly AAA titles, those humble beginnings ignited
-        a <span className="font-medium">passion for programming</span> that
-        still drives me today.
+      <p className="mb-4">
+        My journey into computer science started in an unexpected place:{" "}
+        <span className="font-medium">Minecraft redstone</span>. I loved pushing
+        the game to its limits — building machines, automating farms, and
+        treating each world like a sandbox for systems design. Eventually, I
+        stopped just caring <span className="italic">that</span> it worked and
+        started wondering <span className="italic">why</span> it worked… and how
+        I could build things like that outside of Minecraft.
       </p>
-      <p>
-        My favorite technologies to work with are{" "}
-        <span className="font-medium">
-          Java, Python, React, Ansible, and Terraform
-        </span>
-        . I am also familiar with{" "}
-        <span className="italic">SQL, AWS, Azure, Spring, and GraphQL</span>.
-        And of course, I am always looking for oppurtunities to learn the latest and
-        greatest technologies.
+
+      <p className="mb-4">
+        That curiosity led me to my first Scratch games, where I got hooked on
+        the feeling that code is basically a superpower: you imagine something,
+        and then you can <span className="font-medium">make it real</span>.
+        Since then, I’ve loved computer science for the same reason — it’s equal
+        parts creativity and logic, and it gives you the freedom to build
+        whatever you want, from small tools to full products.
       </p>
-      <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games, basketball, cards, and traveling. I also enjoy
-        working on <span className="font-medium">pet projects</span>, as you&apos;ll
-        see below.
+
+      <p className="mb-4">
+        These days, I like working end-to-end — building UIs, wiring up
+        backends, and shipping things that feel clean and reliable. You can find
+        the tools I reach for most in the{" "}
+        <a
+          href="/#skills"
+          className="font-medium underline underline-offset-4 decoration-2"
+        >
+          {" "}
+          Skills
+        </a>{" "}
+        section below.
       </p>
     </motion.section>
   );

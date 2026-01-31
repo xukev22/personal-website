@@ -47,46 +47,39 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Front-End Intern — Klaviyo",
+    location: "Boston, MA",
+    description:
+      "Shipped Identity Resolution (email-typo merge) in React/TypeScript behind Statsig feature flags, tracking usage in Heap and driving 194k+ duplicate profile merges. Built UI for custom user roles (read/export/edit) with reusable access-control components and fixed 10+ permission bugs. Cut team-owned Sentry errors by 50% and expanded Cypress E2E coverage for key flows.",
+    icon: React.createElement(FaReact),
+    date: "Jul 2025 – Dec 2025",
+  },
+  {
+    title: "DevOps Intern — Wolters Kluwer",
+    location: "Waltham, MA",
+    description:
+      "Migrated a legacy CDN to Azure Front Door + Blob Storage using Terraform, reducing CDN costs by ~85% (~$11k/month). Automated host management and audits with Python + Ansible and built patch management workflows across Windows/Linux. Deployed Zabbix to 50+ hosts, routed alerts to Slack, and used ArgoCD + Jenkins to redeploy apps with expiring secrets.",
+    icon: React.createElement(FaTools),
+    date: "Jul 2024 – Dec 2024",
+  },
+  {
+    title: "Teaching Assistant — Fundamentals of Computer Science 2",
+    location: "Boston, MA",
+    description:
+      "Held 4 weekly office hours supporting Java programming, debugging, and software design. Graded assignments/exams for ~70 students in an accelerated section and delivered written feedback on code quality. Led weekly labs for ~30 students covering data structures and testing concepts with live coding.",
+    icon: React.createElement(FaChalkboardTeacher),
+    date: "Jan 2024 – Apr 2025",
+  },
+  {
     title: "Northeastern University",
     location: "Boston, MA",
     description:
-      "Expected May 2026 with a Bachelor's in Computer Science and concentration in AI",
+      "B.S. Computer Science (concentration in AI), GPA 4.0 — Expected May 2026.",
     icon: React.createElement(LuGraduationCap),
-    date: "Fall 2022",
-  },
-  {
-    title: "Front-End Intern",
-    location: "Palo Alto, CA",
-    description:
-      "Increased customer service efficiency by 20% through developing intuitive user interfaces with React. Developed a blog generation assistance tool for search engine optimization, specifically focusing on 'Top 10' style blogs. Leveraged OpenAI's AI capabilities to develop an automated email generation tool, empowering our customer service agents to efficiently handle tickets with a personal touch and improved efficiency.",
-    icon: React.createElement(FaReact),
-    date: "Summer 2023",
-  },
-  {
-    title: "Teaching Assistant",
-    location: "Boston, MA",
-    description:
-      "TA'd for Fundamentals of Computer Science 2. Facilitated 2-4 office hours weekly to help students with course material, debugging, and design decisions. Graded homework and exams for 67 students in the accelerated section. Conducted weekly interactive lab sessions for a group of 30 students, reviewing the current week's course material and fostering practical application.",
-    icon: React.createElement(FaChalkboardTeacher),
-    date: "Spring 2024",
-  },
-  {
-    title: "DevOps Intern - Wolters Kluwer",
-    location: "Waltham, MA",
-    description:
-      "Automated system inventory review using Ansible to ensure essential security agents were installed and deployed as needed. Utilized Terraform and vSphere to create reproducible test environments with automated VM configuration, enabling easy testing through snapshots and RDP, while reducing manual operations and enhancing loggability. Implemented a proof-of-concept Azure AD login solution to replace local SSH keys with Active Directory sign-in, enabling 2FA and improved account management.",
-    icon: React.createElement(FaTools),
-    date: "July 2024 - December 2024",
-  },
-  {
-    title: "Front-End Intern - Klaviyo",
-    location: "Boston, MA",
-    description:
-      "Helped launch a new customer-facing feature that was quickly adopted by clients representing $2.4M in revenue and counting. I strengthened the platform’s role-based access system, improved the reliability and polish of the UI, and reduced sentry error alerts for our team by 50%. I was also trusted with on-call responsibilities, where I resolved urgent issues and contributed components that continue to be used across the product.",
-    icon: React.createElement(FaReact),
-    date: "July 2025 - December 2025",
+    date: "Sep 2022 – May 2026",
   },
 ] as const;
+
 
 export const projectsData: {
   title: string;
@@ -135,32 +128,44 @@ export const projectsData: {
     imageUrl: racereadyImg,
   },
 ] as const;
-
 export const skillsData = [
+  // Core languages
   "Java",
   "Python",
+  "TypeScript",
+  "JavaScript",
+  "SQL",
+
+  // Frontend
   "React",
   "Next.js",
-  "Terraform",
-  "Ansible",
-  "Azure",
-  "AWS",
-  "Docker",
-  "Jenkins",
-  "Kubernetes",
-  "Pytorch",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "SQL",
-  "Git",
   "Tailwind",
-  "Apollo GraphQL",
   "Framer Motion",
+
+  // Backend
   "Spring",
-  "JUnit",
-  "MUI",
-  "Appsmith",
   "Flask",
+  "Django",
+  "GraphQL",
+
+  // DevOps / Infra
+  "Git",
+  "Docker",
+  "Kubernetes",
+  "Terraform",
+  "Ansible",
+  "Jenkins",
+
+  // Cloud
+  "AWS",
+  "Azure",
+
+  // ML (only keep if you’ve actually built with it)
+  "PyTorch",
+
+  // Product/Experimentation (niche, but credible if real)
+  "Statsig",
+  "Heap",
 ] as const;
